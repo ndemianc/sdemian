@@ -29,7 +29,7 @@ github_username:  jekyll
 author: 'Sergii Demianchuk'
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 theme: minima
 gems:
   - jekyll-feed
