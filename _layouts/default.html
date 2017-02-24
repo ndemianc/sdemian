@@ -32,7 +32,11 @@
     <script type="text/javascript" src="{{ site.github.url }}/assets/js/index.js"></script>
 
     <!-- Google Analytics Tracking code -->
-    <script type="text/javascript">
+    {% if jekyll.environment == 'production' %}
+      {% include analytics.html %}
+    {% endif %}
+    <!-- Google Analytics Tracking code -->
+    <!-- <script type="text/javascript">
 
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', '{{ site.google_analytics }}']);
@@ -44,6 +48,6 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
 
-    </script>
+    </script> -->
 </body>
 </html>
