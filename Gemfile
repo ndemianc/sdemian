@@ -20,6 +20,7 @@ versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 gem 'minima', '~> 2.0'
 gem 'rouge'
 gem 'jekyll-paginate'
+gem 'jekyll-docs'
 
 # If you want to use GitHub Pages, remove the 'gem 'jekyll'' above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
